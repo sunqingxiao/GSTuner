@@ -1,0 +1,180 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BUFFER_SIZE	config.h	7;"	d
+CC	Makefile	/^CC = mpicc #-Wall$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -O3 -std=gnu99$/;"	m
+CHR_SIZE_SHPATH	config.h	36;"	d
+CHR_SIZE_SIMPLE	config.h	46;"	d
+COLLISION_COST	config.h	37;"	d
+COMMON_H	common.h	2;"	d
+COORD_SIZE	config.h	35;"	d
+CROSSOVER_RATE	config.h	9;"	d
+DEFAULT_CONV_GENS	config.h	28;"	d
+DEFAULT_CONV_VARIATION	config.h	29;"	d
+DEFAULT_END_GENERATION	config.h	25;"	d
+DEFAULT_END_TYPE	config.h	23;"	d
+DEFAULT_FF_TYPE	config.h	22;"	d
+DEFAULT_F_THRESH_SHPATH	config.h	27;"	d
+DEFAULT_F_THRESH_SIMPLE	config.h	26;"	d
+DEFAULT_POP_SIZE	config.h	42;"	d
+DEFAULT_RAND_SEED	config.h	21;"	d
+DIM	config.h	44;"	d
+E	common.h	6;"	d
+EPS	common.h	5;"	d
+FF_SHPATH	config.h	15;"	d
+FF_SIMPLE	config.h	14;"	d
+FITNESS_H_	fitness.h	2;"	d
+GA_H_	ga.h	2;"	d
+INF	common.h	4;"	d
+INIT_H_	init.h	2;"	d
+IO_H	io.h	2;"	d
+LIBS	Makefile	/^LIBS=-lmpi -lm$/;"	m
+LOWER_MASK	mt_mpi.h	23;"	d
+M	mt_mpi.h	17;"	d
+MATRIX_A	mt_mpi.h	21;"	d
+MAX_CF	common.h	3;"	d
+MAX_COST	config.h	40;"	d
+MT_LF_H	mt_mpi.h	2;"	d
+MT_MAX	mt_mpi.h	18;"	d
+MUTATION_RATE	config.h	10;"	d
+M_AVG_FITNESS_THRESHHOLD	config.h	18;"	d
+M_FIXED_GENERATIONS	config.h	16;"	d
+M_LOCAL_CONVERGENCE	config.h	19;"	d
+M_MAX_FITNESS_THRESHHOLD	config.h	17;"	d
+N	mt_mpi.h	16;"	d
+NCFLAGS	Makefile	/^NCFLAGS = -O2 -g -arch=sm_70 -Xcompiler -fopenmp$/;"	m
+NUM_RNG	mt_mpi.h	15;"	d
+NVCC	Makefile	/^NVCC = nvcc$/;"	m
+N_POINTS	config.h	34;"	d
+OShift	common.h	/^  void *OShift;$/;"	m	struct:genetic_array
+PI	common.h	7;"	d
+PRNT_CHRS	config.h	4;"	d
+PRNT_DATA	config.h	2;"	d
+PRNT_FITS	config.h	6;"	d
+PRNT_INFO	config.h	5;"	d
+PRNT_RATE	config.h	1;"	d
+PRNT_STAT	config.h	3;"	d
+REPORT_H	report.h	2;"	d
+SEARCH_RANGE	config.h	45;"	d
+SPLATT_BIN_COORD	io.h	/^  SPLATT_BIN_COORD,$/;"	e	enum:__anon8
+SPLATT_BIN_CSF	io.h	/^  SPLATT_BIN_CSF$/;"	e	enum:__anon8
+SPLATT_FILE_BIN_COORD	io.h	/^  SPLATT_FILE_BIN_COORD        \/* a binary version of the coordinate format *\/$/;"	e	enum:__anon7
+SPLATT_FILE_TEXT_COORD	io.h	/^  SPLATT_FILE_TEXT_COORD,      \/* plain list of tuples + values *\/$/;"	e	enum:__anon7
+SP_BOUND	config.h	33;"	d
+TARGET	Makefile	/^TARGET = perf-ga$/;"	m
+TEMPERING_MASK_B	mt_mpi.h	19;"	d
+TEMPERING_MASK_C	mt_mpi.h	20;"	d
+TYPES_H_	types.h	2;"	d
+UPPER_MASK	mt_mpi.h	22;"	d
+UTIL_H	util.h	2;"	d
+binToDecimal	fitness.c	/^int binToDecimal(char* bin, unsigned int begin, unsigned int end) {$/;"	f
+bin_header	io.h	/^} bin_header;$/;"	t	typeref:struct:__anon9
+center	types.h	/^    point    *center;$/;"	m	struct:__anon2
+check_complete	ga.c	/^void check_complete(deme *subpop) {$/;"	f
+chr	types.h	/^    char        *chr;$/;"	m	struct:__anon3
+chr_size	types.h	/^    int         chr_size;$/;"	m	struct:__anon4
+collision	fitness.c	/^int collision(point *A, point *B, object *obj) {$/;"	f
+complete	types.h	/^    int         complete;$/;"	m	struct:__anon4
+conv_gen	types.h	/^    int         conv_gen;$/;"	m	struct:__anon4
+conv_var	types.h	/^    double      conv_var;$/;"	m	struct:__anon4
+crossover	ga.c	/^void crossover(deme *subpop) {$/;"	f
+cur_gen	types.h	/^    int         cur_gen;$/;"	m	struct:__anon4
+deme	types.h	/^} deme;$/;"	t	typeref:struct:__anon4
+end_gen	types.h	/^    int         end_gen;$/;"	m	struct:__anon4
+end_type	types.h	/^    int         end_type;$/;"	m	struct:__anon4
+export_population	init.c	/^void export_population(deme *subpop, char *filename) {$/;"	f
+f	common.h	/^  void *f;$/;"	m	struct:genetic_array
+f_thresh	types.h	/^    double      f_thresh;$/;"	m	struct:__anon4
+ff_type	types.h	/^    int         ff_type;$/;"	m	struct:__anon4
+fill_binary_idx	io.h	99;"	d
+fill_binary_val	io.h	117;"	d
+fit_avg	types.h	/^    double      fit_avg;$/;"	m	struct:__anon4
+fit_max	types.h	/^    int         fit_max;$/;"	m	struct:__anon4
+fit_min	types.h	/^    int         fit_min;$/;"	m	struct:__anon4
+fit_novar	types.h	/^    int         fit_novar;$/;"	m	struct:__anon4
+fit_prev	types.h	/^    int         fit_prev;$/;"	m	struct:__anon4
+fit_tot	types.h	/^    double      fit_tot;$/;"	m	struct:__anon4
+fitness	fitness.c	/^void fitness(deme *subpop) {$/;"	f
+fitness	types.h	/^    double      fitness;$/;"	m	struct:__anon3
+fitness_shpath	fitness.c	/^void fitness_shpath(deme *subpop) {$/;"	f
+fitness_simple	fitness.c	/^void fitness_simple(deme *subpop) {$/;"	f
+free_path	fitness.c	/^void free_path(point **path) {$/;"	f
+func_num	common.h	/^  int func_num;$/;"	m	struct:genetic_array
+genetic_array	common.h	/^typedef struct genetic_array {$/;"	s
+genetic_array	common.h	/^} genetic_array;$/;"	t	typeref:struct:genetic_array
+get_file_type	io.h	48;"	d
+get_input	init.c	/^void get_input(deme *subpop) {$/;"	f
+get_point	init.c	/^point *get_point(FILE *fp, char *varname) {$/;"	f
+get_value	init.c	/^double get_value(FILE *fp, char *varname) {$/;"	f
+idx_width	io.h	/^  uint64_t idx_width;$/;"	m	struct:__anon9
+import_population	init.c	/^void import_population(deme *subpop, char *filename) {$/;"	f
+init_population	init.c	/^void init_population(deme *subpop, int argc, char *argv[]) {$/;"	f
+m	common.h	/^  int m;$/;"	m	struct:genetic_array
+m_d	common.h	/^  void *m_d;$/;"	m	struct:genetic_array
+magic	io.h	/^  int32_t magic;$/;"	m	struct:__anon9
+main	ga.c	/^int main(int argc, char *argv[]) {$/;"	f
+make_path	fitness.c	/^point **make_path(char *chr, point *s, point *t) {$/;"	f
+migration	ga.c	/^void migration(deme *subpop) {$/;"	f
+monotonic_seconds	timer.h	/^static inline double monotonic_seconds()$/;"	f
+mt	mt_mpi.c	/^static unsigned long mt[NUM_RNG][N]; \/\/ State vector$/;"	v	file:
+mt_init	mt_mpi.c	/^void mt_init(int my_rank, unsigned long seed) {$/;"	f
+mt_probability	mt_mpi.c	/^int mt_probability(float prob, int my_rank) {$/;"	f
+mt_rand_32	mt_mpi.c	/^unsigned long mt_rand_32(int my_rank) {$/;"	f
+mt_rand_bit	mt_mpi.c	/^char mt_rand_bit(int my_rank) {$/;"	f
+mt_rand_int	mt_mpi.c	/^int mt_rand_int(int n, int my_rank) {$/;"	f
+mt_rand_real	mt_mpi.c	/^long double mt_rand_real(double n, int my_rank) {$/;"	f
+mti	mt_mpi.c	/^static int mti[NUM_RNG];       \/\/ mti[x]==N+1 means mt[x][N] is not initialized$/;"	v	file:
+mutation	ga.c	/^void mutation(deme *subpop) {$/;"	f
+n	common.h	/^  int n;$/;"	m	struct:genetic_array
+n_objs	types.h	/^    int         n_objs;$/;"	m	struct:__anon4
+new_pop	types.h	/^    org         **new_pop;$/;"	m	struct:__anon4
+object	types.h	/^} object;$/;"	t	typeref:struct:__anon2
+objs	types.h	/^    object      **objs;$/;"	m	struct:__anon4
+old_pop	types.h	/^    org         **old_pop;$/;"	m	struct:__anon4
+open_f	io.h	/^static inline FILE * open_f($/;"	f
+org	types.h	/^} org;$/;"	t	typeref:struct:__anon3
+parent1	types.h	/^    int         parent1;$/;"	m	struct:__anon3
+parent2	types.h	/^    int         parent2;$/;"	m	struct:__anon3
+point	types.h	/^} point;$/;"	t	typeref:struct:__anon1
+pop_size	types.h	/^    int         pop_size;$/;"	m	struct:__anon4
+pt_copy	fitness.c	/^void pt_copy(point *dest, point *src) {$/;"	f
+pt_dist	fitness.c	/^double pt_dist(point *p1, point *p2) {$/;"	f
+radius	types.h	/^    int        radius;$/;"	m	struct:__anon2
+rand_seed	types.h	/^    int         rand_seed;$/;"	m	struct:__anon4
+read_binary_header	io.h	87;"	d
+report_all	report.c	/^void report_all(deme* subpop) {$/;"	f
+report_fittest	report.c	/^void report_fittest(deme *subpop) {$/;"	f
+report_member	report.c	/^void report_member(deme *subpop, char *chr) {$/;"	f
+report_times	timer.c	/^void report_times(timer * const atimer)$/;"	f
+reproduction	ga.c	/^void reproduction(deme *subpop) {$/;"	f
+rpcc1	timer.h	/^static inline idx_t rpcc1()$/;"	f
+running	timer.h	/^  bool running;$/;"	m	struct:__anon6
+s	types.h	/^    point       *s;$/;"	m	struct:__anon4
+seconds	timer.h	/^  double seconds;$/;"	m	struct:__anon6
+selection	ga.c	/^int selection(deme *subpop, int id) {$/;"	f
+splatt_file_type	io.h	/^} splatt_file_type;$/;"	t	typeref:enum:__anon7
+splatt_magic_type	io.h	/^} splatt_magic_type;$/;"	t	typeref:enum:__anon8
+start	timer.h	/^  double start;$/;"	m	struct:__anon6
+stop	timer.h	/^  double stop;$/;"	m	struct:__anon6
+sync_complete	ga.c	/^void sync_complete(deme *subpop) {$/;"	f
+t	types.h	/^    point       *t;$/;"	m	struct:__anon4
+test_input	init.c	/^void test_input(deme* subpop) {$/;"	f
+time_seed	mt_mpi.c	/^unsigned long time_seed() {$/;"	f
+timer	timer.h	/^}timer;$/;"	t	typeref:struct:__anon6
+timer_fstart	timer.h	/^static inline void timer_fstart(timer* const atimer)$/;"	f
+timer_reset	timer.h	/^static inline void timer_reset(timer * const atimer)$/;"	f
+timer_start	timer.h	/^static inline void timer_start(timer * const atimer)$/;"	f
+timer_stop	timer.h	/^static inline void timer_stop(timer* const atimer)$/;"	f
+update	ga.c	/^void update(deme *subpop)$/;"	f
+usage	report.c	/^void usage() {$/;"	f
+usage2	report.c	/^void usage2() {$/;"	f
+val_width	io.h	/^  uint64_t val_width;$/;"	m	struct:__anon9
+valid_loc	fitness.c	/^int valid_loc(point *p) {$/;"	f
+x	common.h	/^  void *x;$/;"	m	struct:genetic_array
+x	types.h	/^    int x;$/;"	m	struct:__anon1
+y	types.h	/^    int y;$/;"	m	struct:__anon1
+z	types.h	/^    int z;$/;"	m	struct:__anon1
